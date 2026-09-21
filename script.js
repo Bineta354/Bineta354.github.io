@@ -98,17 +98,14 @@ const PROJECTS = [
     ]
   },
   {
-    cat: ['web', 'pro'], tags: { fr: 'Web · Pro', en: 'Web · Pro' }, private: false,
+    cat: ['web', 'pro'], tags: { fr: 'Web · Pro', en: 'Web · Pro' }, private: true,
     name: { fr: 'Plateforme médicale multi-cabinet', en: 'Multi-clinic medical platform' },
     desc: {
       fr: 'Gestion complète de cabinet médical : patients, rendez-vous, consultations, facturation, caisse, comptabilité et reporting. Cloisonnement multi-tenant par Row Level Security PostgreSQL (~100 tables, ~83 commits).',
       en: 'Complete medical practice management: patients, appointments, consultations, billing, cash desk, accounting and reporting. Multi-tenant isolation through PostgreSQL Row Level Security (~100 tables, ~83 commits).'
     },
     stack: ['React', 'Vite', 'Tailwind CSS', 'Supabase', 'PostgreSQL'],
-    links: [
-      { k: 'proj.demo', url: 'https://plateau-medical-senghor.vercel.app' },
-      { k: 'proj.code', url: 'https://github.com/Bineta354/cabinet-medical' }
-    ]
+    links: []
   },
   {
     cat: ['mobile'], tags: { fr: 'Mobile', en: 'Mobile' }, private: true,
