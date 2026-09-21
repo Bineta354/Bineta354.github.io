@@ -15,7 +15,7 @@ const I18N = {
     'about.p2': "Au quotidien, je développe des systèmes distribués multi-tenant à forte contrainte de cohérence et de montée en charge : sécurité par rôles (Row Level Security), temps réel, tests de charge, gestion d'incidents en production.",
     'about.p3': "Je cherche aujourd'hui un poste de développeuse full-stack / backend, ou un cadre de recherche (candidature doctorale) sur les systèmes distribués et le Cloud.",
     'proj.eyebrow': 'Projets', 'proj.title': "Ce que j'ai construit", 'proj.more': 'Et plus encore sur GitHub', 'proj.all': 'Tout voir sur GitHub →', 'proj.loading': 'Chargement depuis GitHub…',
-    'proj.private': 'Code privé', 'proj.demo': 'Démo en ligne', 'proj.code': 'Code', 'proj.paper': 'Publication HAL',
+    'proj.private': 'Code privé', 'proj.demo': 'Démo en ligne', 'proj.code': 'Code', 'proj.paper': 'Publication HAL', 'proj.appstore': 'App Store', 'proj.play': 'Google Play', 'proj.video': 'Voir la vidéo', 'proj.close': 'Fermer',
     'f.all': 'Tous', 'f.research': 'Recherche', 'f.web': 'Web', 'f.mobile': 'Mobile', 'f.pro': 'Projets pro',
     'res.eyebrow': 'Recherche', 'res.title': 'Publication & travaux académiques', 'res.award': "🏆 1er prix · COC'2026",
     'res.paperTitle': "Proposition d'un modèle de système multi-agents pour l'allocation équitable des ressources dans le Cloud Computing",
@@ -44,7 +44,7 @@ const I18N = {
     'about.p2': 'Day to day, I build multi-tenant distributed systems with strong consistency and scalability constraints: role-based security (Row Level Security), realtime, load testing and production incident handling.',
     'about.p3': "I'm now looking for a full-stack / backend developer position, or a research setting (PhD application) on distributed systems and the Cloud.",
     'proj.eyebrow': 'Projects', 'proj.title': "What I've built", 'proj.more': 'And more on GitHub', 'proj.all': 'See all on GitHub →', 'proj.loading': 'Loading from GitHub…',
-    'proj.private': 'Private code', 'proj.demo': 'Live demo', 'proj.code': 'Code', 'proj.paper': 'HAL paper',
+    'proj.private': 'Private code', 'proj.demo': 'Live demo', 'proj.code': 'Code', 'proj.paper': 'HAL paper', 'proj.appstore': 'App Store', 'proj.play': 'Google Play', 'proj.video': 'Watch the video', 'proj.close': 'Close',
     'f.all': 'All', 'f.research': 'Research', 'f.web': 'Web', 'f.mobile': 'Mobile', 'f.pro': 'Professional',
     'res.eyebrow': 'Research', 'res.title': 'Publication & academic work', 'res.award': "🏆 1st prize · COC'2026",
     'res.paperTitle': 'A multi-agent system model for fair resource allocation in Cloud Computing',
@@ -88,11 +88,14 @@ const PROJECTS = [
     cat: ['web', 'mobile', 'pro'], tags: { fr: 'Web · Mobile · Pro', en: 'Web · Mobile · Pro' }, private: true,
     name: { fr: 'Mawlid — Guide du Pèlerin', en: 'Mawlid — Pilgrim Guide' },
     desc: {
-      fr: "Projet d'équipe : application mobile et web officielle du Gamou de Tivaouane pour accompagner les pèlerins (programme, bibliothèque, histoire, signalements, favoris, rappels). Mon rôle, seule développeuse backend de l'équipe : schéma PostgreSQL, RPC et Edge Functions, 6 rôles (pèlerin, contributeur, agent de coordination, modérateur, admin) sécurisés par RLS, notifications temps réel, tests de charge k6 Cloud et gestion d'incidents en production.",
-      en: 'Team project: official mobile and web app of the Gamou de Tivaouane guiding pilgrims (programme, library, history, incident reports, favourites, reminders). My role, sole backend developer of the team: PostgreSQL schema, RPCs and Edge Functions, 6 roles (pilgrim, contributor, coordination agent, moderator, admin) secured with RLS, realtime notifications, k6 Cloud load testing and production incident handling.'
+      fr: "Projet d'équipe : application officielle du Mawlid 1448H-2026 à Tivaouane, disponible sur l'App Store et Google Play. Cartographie des lieux, signalement et prise en charge des problèmes, bibliothèque numérique, lecteur MP3, suivi en direct des activités et assistant spirituel (IA). Mon rôle, seule développeuse backend de l'équipe : schéma PostgreSQL, RPC et Edge Functions, 6 rôles sécurisés par RLS, notifications temps réel, tests de charge k6 Cloud et gestion d'incidents en production.",
+      en: 'Team project: official app of Mawlid 1448H-2026 in Tivaouane, available on the App Store and Google Play. Map of key places, incident reporting and follow-up, digital library, MP3 player, live follow-up of activities and a spiritual assistant (AI). My role, sole backend developer of the team: PostgreSQL schema, RPCs and Edge Functions, 6 roles secured with RLS, realtime notifications, k6 Cloud load testing and production incident handling.'
     },
     stack: ['Supabase', 'PostgreSQL', 'Flutter', 'React', 'Vite', 'k6'],
-    links: []
+    links: [
+      { k: 'proj.appstore', url: 'https://apps.apple.com/sn/app/mawlid/id6797128136?l=fr-FR' },
+      { k: 'proj.play', url: 'https://play.google.com/store/apps/details?id=com.zawiyatijaniyya.mawlid' }
+    ]
   },
   {
     cat: ['web', 'pro'], tags: { fr: 'Web · Pro', en: 'Web · Pro' }, private: false,
@@ -109,13 +112,14 @@ const PROJECTS = [
   },
   {
     cat: ['mobile'], tags: { fr: 'Mobile', en: 'Mobile' }, private: true,
-    name: { fr: 'Asamaan — application mobile', en: 'Asamaan — mobile app' },
+    name: { fr: 'Asamaan — la météo et le ciel étoilé', en: 'Asamaan — weather and starry sky' },
+    img: 'assets/asamaan-banner.png',
     desc: {
-      fr: 'Application mobile développée avec Expo et React Native, avec notifications, réglages et publication sur le store en préparation.',
-      en: 'Mobile app built with Expo and React Native, with notifications, settings, and store publication in progress.'
+      fr: "Mon application personnelle : la météo et le ciel étoilé de chez vous. Météo locale, carte du ciel, objets célestes, bulletin et notifications, conçue pour l'Afrique. Développée seule avec Expo et React Native ; publication sur Google Play en préparation.",
+      en: 'My personal app: the weather and the starry sky from where you are. Local weather, sky map, celestial objects, bulletin and notifications, designed for Africa. Built solo with Expo and React Native; Google Play release in preparation.'
     },
-    stack: ['Expo', 'React Native', 'TypeScript'],
-    links: []
+    stack: ['Expo', 'React Native', 'TypeScript', 'astronomy-engine'],
+    links: [{ k: 'proj.video', video: 'assets/asamaan-presentation.mp4' }]
   },
   {
     cat: ['web'], tags: { fr: 'Web', en: 'Web' }, private: true,
@@ -206,10 +210,11 @@ function renderCards() {
   $('#cards').innerHTML = PROJECTS.map((p) => `
     <article class="card reveal ${filter === 'all' || p.cat.includes(filter) ? '' : 'hide'}">
       <div class="card-top"><span class="tag">${esc(p.tags[lang])}</span>${p.private ? `<span class="lock">🔒 ${esc(t('proj.private'))}</span>` : ''}</div>
+      ${p.img ? `<img class="card-img" src="${p.img}" alt="${esc(p.name[lang])}" loading="lazy">` : ''}
       <h3>${esc(p.name[lang])}</h3>
       <p>${esc(p.desc[lang])}</p>
       <div class="chips">${p.stack.map((s) => `<span>${esc(s)}</span>`).join('')}</div>
-      ${p.links.length ? `<div class="card-links">${p.links.map((l) => `<a class="link" href="${l.url}" target="_blank" rel="noopener">${esc(t(l.k))} →</a>`).join('')}</div>` : ''}
+      ${p.links.length ? `<div class="card-links">${p.links.map((l) => l.video ? `<button class="link linkbtn" data-video="${l.video}">▶ ${esc(t(l.k))}</button>` : `<a class="link" href="${l.url}" target="_blank" rel="noopener">${esc(t(l.k))} →</a>`).join('')}</div>` : ''}
     </article>`).join('');
   observe();
 }
@@ -257,6 +262,8 @@ function countUp() {
 }
 
 document.addEventListener('click', (e) => {
+  const v = e.target.closest('[data-video]');
+  if (v) { const d = $('#videoDlg'), el = d.querySelector('video'); el.src = v.dataset.video; d.showModal(); el.play().catch(() => {}); return; }
   const f = e.target.closest('[data-f]');
   if (f) { filter = f.dataset.f; renderFilters(); renderCards(); }
 });
@@ -283,5 +290,8 @@ window.addEventListener('scroll', () => {
   document.querySelectorAll('.links a').forEach((a) => a.classList.toggle('active', cur && a.getAttribute('href') === '#' + cur.id));
 }, { passive: true });
 
+const dlg = $('#videoDlg');
+dlg.addEventListener('close', () => { const el = dlg.querySelector('video'); el.pause(); el.removeAttribute('src'); el.load(); });
+dlg.addEventListener('click', (e) => { if (e.target === dlg || e.target.closest('.dlg-close')) dlg.close(); });
 $('#year').textContent = new Date().getFullYear();
 applyLang();
