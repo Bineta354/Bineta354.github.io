@@ -86,10 +86,10 @@ const PROJECTS = [
   },
   {
     cat: ['web', 'mobile', 'pro'], tags: { fr: 'Web · Mobile · Pro', en: 'Web · Mobile · Pro' }, private: true,
-    name: { fr: 'Plateforme officielle du Gamou de Tivaouane', en: 'Official Gamou de Tivaouane platform' },
+    name: { fr: 'Mawlid — Guide du Pèlerin', en: 'Mawlid — Pilgrim Guide' },
     desc: {
-      fr: "Application mobile et web officielle d'un événement à très forte affluence. Seule développeuse backend : schéma PostgreSQL, RPC et Edge Functions, sécurité par rôles (RLS), notifications temps réel, tests de charge k6 Cloud et gestion d'incidents en production.",
-      en: 'Official mobile and web app for a very high-traffic event. Sole backend developer: PostgreSQL schema, RPCs and Edge Functions, role-based security (RLS), realtime notifications, k6 Cloud load testing and production incident handling.'
+      fr: "Application mobile et web officielle du Gamou de Tivaouane pour accompagner les pèlerins : programme, bibliothèque, histoire, signalements, favoris et rappels. Seule développeuse backend : schéma PostgreSQL, RPC et Edge Functions, 6 rôles (pèlerin, contributeur, agent de coordination, modérateur, admin) sécurisés par RLS, notifications temps réel, tests de charge k6 Cloud et gestion d'incidents en production.",
+      en: 'Official mobile and web app of the Gamou de Tivaouane guiding pilgrims: programme, library, history, incident reports, favourites and reminders. Sole backend developer: PostgreSQL schema, RPCs and Edge Functions, 6 roles (pilgrim, contributor, coordination agent, moderator, admin) secured with RLS, realtime notifications, k6 Cloud load testing and production incident handling.'
     },
     stack: ['Supabase', 'PostgreSQL', 'Flutter', 'React', 'Vite', 'k6'],
     links: []
@@ -146,7 +146,7 @@ const EXPERIENCE = [
   },
   {
     when: { fr: '2026', en: '2026' },
-    title: { fr: 'Développeuse Backend — Gamou de Tivaouane (CEZAT)', en: 'Backend Developer — Gamou de Tivaouane (CEZAT)' }, org: 'Plateforme officielle',
+    title: { fr: 'Développeuse Backend — Mawlid, Guide du Pèlerin (CEZAT)', en: 'Backend Developer — Mawlid, Pilgrim Guide (CEZAT)' }, org: 'Gamou de Tivaouane',
     pts: {
       fr: ['Seule développeuse backend de l\'application mobile/web officielle (Supabase, Flutter, React/Vite).', 'Sécurité par rôles, authentification, temps réel, tests de charge k6 Cloud.'],
       en: ['Sole backend developer of the official mobile/web app (Supabase, Flutter, React/Vite).', 'Role-based security, authentication, realtime, k6 Cloud load testing.']
