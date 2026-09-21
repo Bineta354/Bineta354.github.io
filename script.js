@@ -88,8 +88,8 @@ const PROJECTS = [
     cat: ['web', 'mobile', 'pro'], tags: { fr: 'Web · Mobile · Pro', en: 'Web · Mobile · Pro' }, private: true,
     name: { fr: 'Mawlid — Guide du Pèlerin', en: 'Mawlid — Pilgrim Guide' },
     desc: {
-      fr: "Application mobile et web officielle du Gamou de Tivaouane pour accompagner les pèlerins : programme, bibliothèque, histoire, signalements, favoris et rappels. Seule développeuse backend : schéma PostgreSQL, RPC et Edge Functions, 6 rôles (pèlerin, contributeur, agent de coordination, modérateur, admin) sécurisés par RLS, notifications temps réel, tests de charge k6 Cloud et gestion d'incidents en production.",
-      en: 'Official mobile and web app of the Gamou de Tivaouane guiding pilgrims: programme, library, history, incident reports, favourites and reminders. Sole backend developer: PostgreSQL schema, RPCs and Edge Functions, 6 roles (pilgrim, contributor, coordination agent, moderator, admin) secured with RLS, realtime notifications, k6 Cloud load testing and production incident handling.'
+      fr: "Projet d'équipe : application mobile et web officielle du Gamou de Tivaouane pour accompagner les pèlerins (programme, bibliothèque, histoire, signalements, favoris, rappels). Mon rôle, seule développeuse backend de l'équipe : schéma PostgreSQL, RPC et Edge Functions, 6 rôles (pèlerin, contributeur, agent de coordination, modérateur, admin) sécurisés par RLS, notifications temps réel, tests de charge k6 Cloud et gestion d'incidents en production.",
+      en: 'Team project: official mobile and web app of the Gamou de Tivaouane guiding pilgrims (programme, library, history, incident reports, favourites, reminders). My role, sole backend developer of the team: PostgreSQL schema, RPCs and Edge Functions, 6 roles (pilgrim, contributor, coordination agent, moderator, admin) secured with RLS, realtime notifications, k6 Cloud load testing and production incident handling.'
     },
     stack: ['Supabase', 'PostgreSQL', 'Flutter', 'React', 'Vite', 'k6'],
     links: []
@@ -149,7 +149,7 @@ const EXPERIENCE = [
     title: { fr: 'Développeuse Backend — Mawlid, Guide du Pèlerin (CEZAT)', en: 'Backend Developer — Mawlid, Pilgrim Guide (CEZAT)' }, org: 'Gamou de Tivaouane',
     pts: {
       fr: ['Seule développeuse backend de l\'application mobile/web officielle (Supabase, Flutter, React/Vite).', 'Sécurité par rôles, authentification, temps réel, tests de charge k6 Cloud.'],
-      en: ['Sole backend developer of the official mobile/web app (Supabase, Flutter, React/Vite).', 'Role-based security, authentication, realtime, k6 Cloud load testing.']
+      en: ['Sole backend developer of the team on the official mobile/web app (Supabase, Flutter, React/Vite).', 'Role-based security, authentication, realtime, k6 Cloud load testing.']
     }
   },
   {
