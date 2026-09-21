@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bineta Dabo — Développeuse Full-Stack & Chercheuse Cloud</title>
+  <meta name="description" content="Portfolio de Bineta Dabo : développeuse full-stack (Node.js, React, Supabase, Flutter) et chercheuse en systèmes distribués et Cloud Computing. Dakar, Sénégal.">
+  <meta property="og:title" content="Bineta Dabo — Portfolio">
+  <meta property="og:description" content="Développeuse full-stack & chercheuse en systèmes distribués / Cloud Computing.">
+  <meta name="theme-color" content="#0b0d14">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%237c5cff'/%3E%3Ctext x='32' y='43' font-size='32' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3EB%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    try { var th = localStorage.getItem('theme'); if (th) document.documentElement.dataset.theme = th; } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="bg" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="grid"></span></div>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#top" aria-label="Bineta Dabo"><span class="logo">B</span><span class="brand-name">Bineta Dabo</span></a>
+    <nav class="links" id="links">
+      <a href="#about" data-i18n="nav.about">À propos</a>
+      <a href="#projects" data-i18n="nav.projects">Projets</a>
+      <a href="#research" data-i18n="nav.research">Recherche</a>
+      <a href="#experience" data-i18n="nav.experience">Parcours</a>
+      <a href="#skills" data-i18n="nav.skills">Compétences</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="tools">
+      <button class="pill" id="lang" aria-label="Changer de langue / Change language">EN</button>
+      <button class="pill icon" id="theme" aria-label="Thème clair / sombre"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+      <button class="pill icon burger" id="burger" aria-label="Menu"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text reveal">
+          <span class="badge"><i class="dot"></i><span data-i18n="hero.badge">Disponible · à la recherche d'un emploi</span></span>
+          <h1><span data-i18n="hero.hi">Bonjour, je suis</span> <span class="grad">Bineta Dabo</span></h1>
+          <p class="role" data-i18n="hero.role">Développeuse full-stack & chercheuse en systèmes distribués</p>
+          <p class="lead" data-i18n="hero.lead">Je conçois des plateformes web et mobiles robustes (Node.js, React, Supabase, Flutter) et je fais de la recherche sur l'allocation équitable de ressources dans le Cloud. Master 2 UCAD, mention Bien, 1er prix COC'2026.</p>
+          <div class="cta">
+            <a class="btn primary" href="#projects" data-i18n="hero.cta1">Voir mes projets</a>
+            <a class="btn js-cv" href="assets/CV_Bineta_Dabo_Developpeuse_FR.pdf" download data-i18n="hero.cta2">Télécharger mon CV</a>
+            <a class="btn ghost" href="#contact" data-i18n="hero.cta3">Me contacter</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/Bineta354" target="_blank" rel="noopener" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg></a>
+            <a href="https://www.linkedin.com/in/bineta-dabo" target="_blank" rel="noopener" aria-label="LinkedIn" class="txt">LinkedIn</a>
+            <a href="https://hal.science/hal-05571848" target="_blank" rel="noopener" aria-label="HAL" class="txt">HAL</a>
+            <a href="https://orcid.org/0009-0006-6853-2742" target="_blank" rel="noopener" aria-label="ORCID" class="txt">ORCID</a>
+            <a href="https://scholar.google.com/citations?user=AxGs9B4AAAAJ&hl=fr" target="_blank" rel="noopener" aria-label="Google Scholar" class="txt">Scholar</a>
+            <a href="mailto:binetadabo28@gmail.com" aria-label="Email"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal" aria-hidden="true">
+          <div class="term">
+            <div class="term-bar"><i></i><i></i><i></i><span>bineta.ts</span></div>
+<pre><code><span class="c">// profile.ts</span>
+<span class="k">const</span> <span class="v">bineta</span> = {
+  <span class="p">role</span>: <span class="s">"Full-Stack Dev & Researcher"</span>,
+  <span class="p">location</span>: <span class="s">"Dakar, SN"</span>,
+  <span class="p">stack</span>: [<span class="s">"Node"</span>, <span class="s">"React"</span>, <span class="s">"Supabase"</span>,
+          <span class="s">"Flutter"</span>, <span class="s">"Python"</span>],
+  <span class="p">research</span>: <span class="s">"Multi-agent Cloud"</span>,
+  <span class="p">award</span>: <span class="s">"1st prize COC'2026"</span>,
+  <span class="p">openToWork</span>: <span class="k">true</span><span class="caret"></span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap stats reveal">
+        <div class="stat"><b data-count="16">0</b><span>/20</span><small data-i18n="stats.mem">Note du mémoire M2</small></div>
+        <div class="stat"><b data-count="1">0</b><sup data-i18n="stats.ord">er</sup><small data-i18n="stats.prize">Prix au colloque COC'2026</small></div>
+        <div class="stat"><b data-count="100">0</b><span>+</span><small data-i18n="stats.tables">Tables SQL conçues</small></div>
+        <div class="stat"><b data-count="83">0</b><span>+</span><small data-i18n="stats.commits">Commits sur la plateforme médicale</small></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="wrap two">
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="about.eyebrow">À propos</p>
+          <h2 data-i18n="about.title">Entre code de production et recherche</h2>
+        </div>
+        <div class="reveal prose">
+          <p data-i18n="about.p1">Titulaire d'un Master 2 en Systèmes d'Information Répartis (UCAD, Dakar), j'ai mené un mémoire sur l'allocation multi-agents de ressources Cloud, publié sur HAL et primé au colloque international COC'2026.</p>
+          <p data-i18n="about.p2">Au quotidien, je développe des systèmes distribués multi-tenant à forte contrainte de cohérence et de montée en charge : sécurité par rôles (Row Level Security), temps réel, tests de charge, gestion d'incidents en production.</p>
+          <p data-i18n="about.p3">Je cherche aujourd'hui un poste de développeuse full-stack / backend, ou un cadre de recherche (candidature doctorale) sur les systèmes distribués et le Cloud.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="wrap">
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="proj.eyebrow">Projets</p>
+          <h2 data-i18n="proj.title">Ce que j'ai construit</h2>
+        </div>
+        <div class="filters reveal" id="filters" role="tablist"></div>
+        <div class="cards" id="cards"></div>
+
+        <div class="reveal more-head">
+          <h3 data-i18n="proj.more">Et plus encore sur GitHub</h3>
+          <a class="link" href="https://github.com/Bineta354?tab=repositories" target="_blank" rel="noopener" data-i18n="proj.all">Tout voir sur GitHub →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section">
+      <div class="wrap">
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="res.eyebrow">Recherche</p>
+          <h2 data-i18n="res.title">Publication & travaux académiques</h2>
+        </div>
+        <article class="paper reveal">
+          <div class="paper-badge" data-i18n="res.award">🏆 1er prix · COC'2026</div>
+          <h3 data-i18n="res.paperTitle">Proposition d'un modèle de système multi-agents pour l'allocation équitable des ressources dans le Cloud Computing</h3>
+          <p class="muted">Bineta Dabo · <span data-i18n="res.venue">Mémoire de Master 2, UCAD 2024–2025 · Colloque international COC'2026</span></p>
+          <p data-i18n="res.abstract">Un système multi-agents décentralisé (Python, SPADE, asyncio) combinant l'ordonnancement HRRN avec vieillissement (anti-famine) et le tri topologique (algorithme de Kahn) pour garantir équité entre clients et respect des dépendances entre tâches. Quatre agents collaborent : gestion des clients, gestion des ressources, équilibrage de charge et supervision.</p>
+          <div class="chips"><span>Multi-agent systems</span><span>Cloud Computing</span><span>HRRN</span><span>Topological sort</span><span>SPADE</span><span>Fairness</span></div>
+          <div class="cta">
+            <a class="btn primary" href="https://hal.science/hal-05571848" target="_blank" rel="noopener" data-i18n="res.hal">Lire sur HAL →</a>
+            <a class="btn js-cvr" href="assets/CV_Bineta_Dabo_Recherche_FR.pdf" download data-i18n="res.cv">CV Recherche (PDF)</a>
+            <a class="btn" href="https://orcid.org/0009-0006-6853-2742" target="_blank" rel="noopener">ORCID</a>
+            <a class="btn" href="https://scholar.google.com/citations?user=AxGs9B4AAAAJ&hl=fr" target="_blank" rel="noopener">Google Scholar</a>
+          </div>
+        </article>
+        <div class="mini reveal">
+          <div>
+            <h4 data-i18n="res.cloudTitle">Cloud Computing — AWS, OpenStack & CloudSim</h4>
+            <p class="muted" data-i18n="res.cloudText">Automatisation Bash / Java (AWS SDK) d'un VPC AWS ; simulations CloudSim (200 à 1000 requêtes) pour étudier l'impact du nombre de VMs sur le temps de réponse.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="wrap">
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="exp.eyebrow">Parcours</p>
+          <h2 data-i18n="exp.title">Expérience & formation</h2>
+        </div>
+        <div class="two cols">
+          <ol class="timeline" id="timeline"></ol>
+          <div>
+            <h3 class="reveal" data-i18n="edu.title">Formation</h3>
+            <ol class="timeline small" id="edu"></ol>
+            <h3 class="reveal" style="margin-top:28px" data-i18n="cert.title">Certifications</h3>
+            <ul class="certs reveal" id="certs"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="wrap">
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="sk.eyebrow">Compétences</p>
+          <h2 data-i18n="sk.title">Ma boîte à outils</h2>
+        </div>
+        <div class="skills" id="skillGrid"></div>
+        <div class="langs reveal">
+          <span><b data-i18n="lang.fr">Français</b> · <em data-i18n="lang.fr.lvl">Courant</em></span>
+          <span><b>Wolof</b> · <em data-i18n="lang.wo.lvl">Courant</em></span>
+          <span><b data-i18n="lang.en">Anglais</b> · <em data-i18n="lang.en.lvl">Lu avancé, écrit intermédiaire</em></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="wrap">
+        <div class="contact reveal">
+          <h2 data-i18n="ct.title">Travaillons ensemble</h2>
+          <p data-i18n="ct.text">Un poste, un projet freelance, une collaboration de recherche ? Écrivez-moi, je réponds vite.</p>
+          <div class="cta center">
+            <a class="btn primary" href="mailto:binetadabo28@gmail.com">binetadabo28@gmail.com</a>
+            <a class="btn" href="https://github.com/Bineta354" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/bineta-dabo" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn js-cv" href="assets/CV_Bineta_Dabo_Developpeuse_FR.pdf" download data-i18n="hero.cta2">Télécharger mon CV</a>
+          </div>
+          <p class="muted small">📍 Dakar, Sénégal</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap"><span>© <span id="year"></span> Bineta Dabo</span><span data-i18n="foot">Fait avec soin à Dakar</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
