@@ -88,8 +88,8 @@ const PROJECTS = [
     cat: ['web', 'mobile', 'pro'], tags: { fr: 'Web · Mobile · Pro', en: 'Web · Mobile · Pro' }, private: true,
     name: { fr: 'Mawlid — Guide du Pèlerin', en: 'Mawlid — Pilgrim Guide' },
     desc: {
-      fr: "Projet d'équipe : application officielle du Mawlid 1448H-2026 à Tivaouane, disponible sur l'App Store et Google Play. Cartographie des lieux, signalement et prise en charge des problèmes, bibliothèque numérique, lecteur MP3, suivi en direct des activités et assistant spirituel (IA). Mon rôle, seule développeuse backend de l'équipe : schéma PostgreSQL, RPC et Edge Functions, 6 rôles sécurisés par RLS, notifications temps réel, tests de charge k6 Cloud et gestion d'incidents en production. Équipe : Mouhamed Ndiaye, Ousmane Bodian, Fatou Diouf, Alioune et Bineta Dabo.",
-      en: 'Team project: official app of Mawlid 1448H-2026 in Tivaouane, available on the App Store and Google Play. Map of key places, incident reporting and follow-up, digital library, MP3 player, live follow-up of activities and a spiritual assistant (AI). My role, sole backend developer of the team: PostgreSQL schema, RPCs and Edge Functions, 6 roles secured with RLS, realtime notifications, k6 Cloud load testing and production incident handling. Team: Mouhamed Ndiaye, Ousmane Bodian, Fatou Diouf, Alioune and Bineta Dabo.'
+      fr: "Projet d'équipe : application officielle du Mawlid 1448H-2026 à Tivaouane, disponible sur l'App Store et Google Play. Cartographie des lieux, signalement et prise en charge des problèmes, bibliothèque numérique, lecteur MP3, suivi en direct des activités et assistant spirituel (IA). Mon rôle, développeuse backend de l'équipe : schéma PostgreSQL, RPC et Edge Functions, 6 rôles sécurisés par RLS, notifications temps réel, tests de charge k6 Cloud et gestion d'incidents en production. Équipe : Mouhamed Ndiaye, Ousmane Bodian, Fatou Diouf, Alioune et Bineta Dabo.",
+      en: 'Team project: official app of Mawlid 1448H-2026 in Tivaouane, available on the App Store and Google Play. Map of key places, incident reporting and follow-up, digital library, MP3 player, live follow-up of activities and a spiritual assistant (AI). My role, backend developer of the team: PostgreSQL schema, RPCs and Edge Functions, 6 roles secured with RLS, realtime notifications, k6 Cloud load testing and production incident handling. Team: Mouhamed Ndiaye, Ousmane Bodian, Fatou Diouf, Alioune and Bineta Dabo.'
     },
     stack: ['Supabase', 'PostgreSQL', 'Flutter', 'React', 'Vite', 'k6'],
     links: [
@@ -149,8 +149,8 @@ const EXPERIENCE = [
     when: { fr: '2026', en: '2026' },
     title: { fr: 'Développeuse Backend — Mawlid, Guide du Pèlerin (CEZAT)', en: 'Backend Developer — Mawlid, Pilgrim Guide (CEZAT)' }, org: 'Gamou de Tivaouane',
     pts: {
-      fr: ['Seule développeuse backend de l\'application mobile/web officielle (Supabase, Flutter, React/Vite).', 'Sécurité par rôles, authentification, temps réel, tests de charge k6 Cloud.'],
-      en: ['Sole backend developer of the team on the official mobile/web app (Supabase, Flutter, React/Vite).', 'Role-based security, authentication, realtime, k6 Cloud load testing.']
+      fr: ['Développeuse backend de l\'application mobile/web officielle (Supabase, Flutter, React/Vite).', 'Sécurité par rôles, authentification, temps réel, tests de charge k6 Cloud.'],
+      en: ['Backend developer of the team on the official mobile/web app (Supabase, Flutter, React/Vite).', 'Role-based security, authentication, realtime, k6 Cloud load testing.']
     }
   },
   {
