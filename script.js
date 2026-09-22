@@ -78,8 +78,8 @@ const PROJECTS = [
     cat: ['web', 'pro'], tags: { fr: 'Web · Pro', en: 'Web · Pro' }, private: true,
     name: { fr: 'CSL — plateforme logistique', en: 'CSL — logistics platform' },
     desc: {
-      fr: 'Plateforme logistique pour le Port Autonome de Dakar : listes de prix multi-clients, gestion des départs partiels, notifications filtrées par rôle. Correction de bugs critiques (503 en cascade, recalcul de stock, API commandes, import massif de produits).',
-      en: 'Logistics platform for the Port Autonome de Dakar: multi-client price lists, partial-departure statuses, role-filtered notifications. Fixed critical production bugs (cascading 503s, stock recalculation, orders API, bulk product import).'
+      fr: 'Plateforme logistique pour un acteur portuaire de Dakar : listes de prix multi-clients, gestion des départs partiels, notifications filtrées par rôle. Correction de bugs critiques (503 en cascade, recalcul de stock, API commandes, import massif de produits).',
+      en: 'Logistics platform for a port operator in Dakar: multi-client price lists, partial-departure statuses, role-filtered notifications. Fixed critical production bugs (cascading 503s, stock recalculation, orders API, bulk product import).'
     },
     stack: ['Node.js', 'Express', 'PostgreSQL', 'TypeScript'],
     links: []
@@ -136,8 +136,8 @@ const EXPERIENCE = [
     when: { fr: 'Avr. 2026 — Aujourd\'hui', en: 'Apr. 2026 — Present' },
     title: { fr: 'Développeuse Full-Stack', en: 'Full-Stack Developer' }, org: 'IAI Compétences, Dakar',
     pts: {
-      fr: ['Développement et maintenance de CSL (Node.js / Express / PostgreSQL) pour le Port Autonome de Dakar.', 'Résolution de bugs critiques à fort impact en production.', 'Plateforme médicale multi-cabinet (React/Vite + Supabase, RLS) : contributrice la plus active du projet.'],
-      en: ['Development and maintenance of CSL (Node.js / Express / PostgreSQL) for the Port Autonome de Dakar.', 'Fixed high-impact critical production bugs.', 'Multi-clinic medical platform (React/Vite + Supabase, RLS): most active contributor.']
+      fr: ['Développement et maintenance de CSL (Node.js / Express / PostgreSQL) pour un acteur portuaire de Dakar.', 'Résolution de bugs critiques à fort impact en production.', 'Plateforme médicale multi-cabinet (React/Vite + Supabase, RLS) : contributrice la plus active du projet.'],
+      en: ['Development and maintenance of CSL (Node.js / Express / PostgreSQL) for a port operator in Dakar.', 'Fixed high-impact critical production bugs.', 'Multi-clinic medical platform (React/Vite + Supabase, RLS): most active contributor.']
     }
   },
   {
